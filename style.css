@@ -1,0 +1,44 @@
+header {
+    background-color: blue;
+    height: 75px;
+	display: flex;
+}
+
+nav{
+    background-color: green;
+    height: 650px;
+    width: 25%;
+    float: left;
+	display: flex;
+}
+
+main{
+    background-color: red;
+    height: 650px;
+    width: 45%;
+    float: left;
+	display: flex;
+}
+
+aside {
+    background-color: orange;
+    height: 650px;
+    width: 30%;
+    float: left;
+	display: flex;
+}
+
+footer {
+    background-color: yellow;
+    clear: both; 
+	display: flex;
+	height: 75px;
+}
+
+* {
+	margin: 0;
+}
+
+p {
+	font-size: 60px;
+}
